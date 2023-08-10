@@ -1,15 +1,16 @@
 html {
-    background-color: black;
+    background-color: rgb(26, 23, 23);
 }
 
 body {
     color: whitesmoke;
-    font-family: 'Merienda';
+    font-family: 'Helvetica';
+    margin: 0px;
+    margin-bottom: 0px;
 }
 
 h1,
 h3 {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -29,11 +30,12 @@ img.cars {
 }
 
 nav {
+    background-color: maroon;
+    border-top: 10px solid dodgerblue;
+    border-bottom: 10px solid dodgerblue;
     display: flex;
     justify-content: space-around;
     padding: 5px;
-    border: whitesmoke;
-    border-style: solid;
 }
 
 a {
@@ -42,11 +44,10 @@ a {
 }
 
 .currentPage {
-    background-color: red;
-    border: red;
+    background-color: dodgerblue;
     border-style: solid;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .home {
@@ -61,4 +62,22 @@ ul {
 
 p {
     text-align: center;
+    padding: 20px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-right: 70%;
+}
+
+footer {
+    background-color: maroon;
+    border-top: 10px solid dodgerblue;
+    border-bottom: 10px solid dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    position: bottom;
 }
