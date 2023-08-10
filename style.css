@@ -1,6 +1,16 @@
 html {
     background-color: black;
-    color: white;
+}
+
+body {
+    color: whitesmoke;
+    font-family: 'Merienda';
+}
+
+h1,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 img {
@@ -11,4 +21,17 @@ img {
 img.home {
     height: 300px;
     width: 300px;
+}
+
+img.cars {
+    height: 250px;
+    width: 350px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    border: white;
+    border-style: solid;
 }
