@@ -36,6 +36,7 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 5px;
+    align-items: center;
 }
 
 a {
@@ -79,5 +80,10 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 5px;
-    position: bottom;
+    align-items: center;
+}
+
+.face {
+    height: 30px;
+    width: 30px;
 }
