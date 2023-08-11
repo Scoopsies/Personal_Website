@@ -94,3 +94,10 @@ footer {
     align-items: center;
 }
 
+a:hover {
+    color: dodgerblue;
+}
+
+a.currentPage:hover {
+    color: maroon;
+}
